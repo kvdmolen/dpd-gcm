@@ -14,9 +14,9 @@
 
 	dpd.resourcename.post(
 		{
-			message:"Your message here",
-			devices:["deviceID1","deviceID2", ...]
-		}, 
+			message: "Your message here",
+			devices: ["deviceID1","deviceID2", ...]
+		},
 		function(result, err){
 		}
 	)

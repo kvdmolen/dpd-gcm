@@ -38,8 +38,8 @@ dpdgcm.prototype.handle = function ( ctx, next ) {
         devices = ctx.body.devices;
     }
 
-    if(ctx.body && ctx.body.title){
-        message = ctx.body.title;
+    if(ctx.body && ctx.body.message){
+        message = ctx.body.message;
     }else{
         message = this.config.defaultMsg;
     }
